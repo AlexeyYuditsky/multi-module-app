@@ -23,3 +23,4 @@ rootProject.name = "multi-module-app"
 include(":app")
 include(":domain")
 include(":data")
+include(":presentation")
