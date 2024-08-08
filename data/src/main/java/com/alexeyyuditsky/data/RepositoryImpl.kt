@@ -28,7 +28,7 @@ class RepositoryImpl(
 
     private companion object {
         const val BASE_URL =
-            "https://raw.githubusercontent.com/AlexeyYuditsky/server/master/quote.json?token="
+            "https://raw.githubusercontent.com/AlexeyYuditsky/server/master/"
     }
 
 }
