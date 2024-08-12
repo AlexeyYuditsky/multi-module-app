@@ -4,6 +4,7 @@ plugins {
 dependencies {
     implementation(project(":domain"))
 
-    implementation(libs.retrofit)
-    implementation(libs.converter.gson)
+    api(libs.retrofit)
+    api(libs.converter.gson)
+    implementation(libs.javax.inject)
 }
