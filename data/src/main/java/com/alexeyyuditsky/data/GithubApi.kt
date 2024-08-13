@@ -8,6 +8,6 @@ interface GithubApi {
     suspend fun getQuote(): QuoteCloud
 
     private companion object {
-        const val TOKEN = "GHSAT0AAAAAACODASTVDVJDUYWVGER6TK36ZVZ26SQ"
+        const val TOKEN = "GHSAT0AAAAAACODASTVWSO6FNKTAZKXAJ4IZV3EI3Q"
     }
 }
